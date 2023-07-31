@@ -1,0 +1,21 @@
+.time-line-container>div:last-child .education__time>.education__line {
+    display: none;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 16px solid rgb(0, 0, 0); /* Puedes cambiar el color aquí */
+}
+
+.horizontal-line {
+    border: 2px solid black; /* Puedes ajustar el color y grosor de la línea aquí */
+    width: 17px; /* Puedes ajustar el ancho de la línea aquí */
+    /* margin: 10px 0; Puedes ajustar los márgenes superior e inferior aquí */
+}
+
+.color-font {
+    background-color: aliceblue;
+}
