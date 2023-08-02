@@ -8,8 +8,7 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://yannerisfr.github.io/',
-  base: '/yannerisfr',
+  site: 'https://yannerisfr.vercel.app/',
   integrations: [mdx(), sitemap(), tailwind(), image(
     {
       serviceEntryPoint: '@astrojs/image/sharp',
